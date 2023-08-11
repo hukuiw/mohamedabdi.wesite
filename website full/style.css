@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'REboto' , sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 2s linear;
+}
+
+::selection{
+    background: yellow;
+    color: black;
+    }    
+
+    html{
+        font-size: 62.5;
+        overflow: hidden;
+   }
+
+body{
+    background: black;
+    overflow-x: hidden;
+}
+
+header .user img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: coner;
+    margin-bottom: 2rem;
+    border: .4rem solid  yellow;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 27rem;
+    background: #1a1a1a;
+    display: flex;
+    align-items: cente;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user .name{
+    font-size: 2.5rem;
+    color: white ;
+}
+
+header .user .post{
+    font-size: 1.3rem;
+    color: #eee;
+}
+
+header .nav-bar{
+    width: 100%;
+}
+
+header .nav-bar ul{
+    list-style: one;
+    padding: 1rem 3rem;
+}
+
+header .nav-bar ul li a{
+    display: block;
+    padding: 0.8rem;
+    background: #333;
+    color: white;
+    font-size: 15px;
+    margin:  1.5rem 0;
+    border-radius: 50PX;
+}
+
+header .nav-bar ul li a:hover{
+    background:  #ffaa00;
+    color: black;
+
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem;
+    margin-left: 35rem;
+}  
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow:  column;
+    padding: 0 15rem;
+}
+ 
+.home h3{
+    font-size: 2.5rem;
+    color: #fff;
+}
+ .home h1{
+    font-size: 5rem;
+    color: #ffaa00;
+ }
+
+ .home p{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+
+ }
+
+.btn{
+    background: #ffaa00;
+    width: 22rem;
+    border-radius: 2rem;
+    color: #fff;
+}
+ 
